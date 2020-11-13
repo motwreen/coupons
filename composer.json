@@ -1,0 +1,24 @@
+{
+    "name": "motwreen/coupons",
+    "description": "Handling Promo Codes logic",
+    "authors": [
+        {
+            "name": "Ahmed Gad",
+            "email": "eng.ahmedmgad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Motwreen\\Coupons\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Motwreen\\Coupons\\CouponsServiceProvider"
+            ]
+        }
+    }
+}
